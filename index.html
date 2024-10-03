@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Place the meta description text here.">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="images/md_headlogo_white.png">
+	<title>Marlow Dukes Over 50s Football</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<div class="menu">
+					<ul>
+						<img src="images/md_swanlogo.png" class="logo">
+						<img src="images/dukes_logo_text.png" class="textlogo">
+						<li><a href="#aboutus">About Us</a></li>
+						<li><a href="#links">Links</a></li>
+						<li><a href="#store">Store</a></li>
+						<li><a href="#contactus">Get In Touch</a></li>
+					</ul>
+				</div>					
+			</nav>
+				<div class="hero_title">
+					<h1>Over 50s and Over 60s football in Buckinghamshire</h1>
+				</div>
+		</header>
+	</div>
+	<div class="aboutus" id="aboutus">
+		<div class="au_content_section">
+			<div class="au_title">
+				<h1>About Us</h1>
+			</div>
+			<div class="au_content">
+				<p>We're a group of guys who have all seen better days on the pitch and although our bodies are screaming for us to stop, our minds are telling us we're not quite ready for walking football yet. We run an Over 50 and Over 60 team which are registered with the Oxfordshire FA as part of their Veterans League.</p>
+				<p>Late every Tuesday night we organize a match between ourselves with the purpose of keeping us fit for the weekend matches. Our home games are played in High Wycombe. We provide an inclusive, friendly, and competitive environment for players who want to stay active, make new friends, and continue playing the sport they love.</p>
+				<p>Our organized events include activities outside of football. Golf, tennis, cricket and there is always at least one international tour per year. The most recent ones have been to Turkey and Belgium. We're always looking for new recruits, so if you're Over 50 and looking to play organized football for either our Over 50s or Over 60s teams use the form on this page to get in touch.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="cards-container" id="links">
+        <a href="https://fulltime.thefa.com/displayTeam.html?divisionseason=623675572&teamID=562047113" target="_blank" class="card">
+            <div class="icon">
+                <img src="images/football_icon.png" alt="Icon 1">
+            </div>
+            <div class="text">
+                <h3>Over 50s Latest News</h3>
+                <p>Results, Fixtures and Tables</p>
+            </div>
+        </a>
+        <a href="https://www.facebook.com/OxVetsFootball" target="_blank" class="card">
+            <div class="icon">
+                <img src="images/groups_icon.png" alt="Icon 2">
+            </div>
+            <div class="text">
+                <h3>Oxfordshire Over 50s Football</h3>
+                <p>Facebook Group</p>
+            </div>
+        </a>
+        <a href="https://www.marlowdukes.com" target="_blank" class="card">
+            <div class="icon">
+                <img src="images/bar_chart.png" alt="Icon 3">
+            </div>
+            <div class="text">
+                <h3>Tuesday Night Training Data</h3>
+                <p>marlowdukes.com</p>
+            </div>
+        </a>
+        <a href="https://thedukebox.co.uk/" target="_blank" class="card">
+            <div class="icon">
+                <img src="images/sports_bar.png" alt="Icon 4">
+            </div>
+            <div class="text">
+                <h3>The Duke Of Cambridge</h3>
+                <p>Home pub and sponsor</p>
+            </div>
+        </a>
+    </div>
+	<div class="store" id="store">
+		<div class="button_div">
+			<a href="https://marlow-merch.myspreadshop.co.uk/" target="_blank"><button class="store_button">Click to visit the Store</button></a>
+		</div>
+	</div>
+	<div class="contactus" id="contactus">
+		<div class="cu_container">
+			<h1>Get In Touch</h1>
+			<p>If this sounds like something you'd be interested in, let us know if it's for the Over 50s or Over 60s.</p>
+			<form action="https://formsubmit.co/ianedwardgrant@gmail.com" method="POST" autocomplete="off">
+				<input type="text" name="name" required placeholder="Name">
+				<input type="email" name="email" required placeholder="Email">
+				<textarea name="message" placeholder="Message"></textarea>
+				<input type="hidden" name="_subject" value="MARLOW DUKES: POTENTIAL RECRUIT">
+				<!-- REMOVES THE CAPTCHA REQUEST ON SUBMIT -->
+				<input type="hidden" name="_captcha" value="false">
+				<!-- SEND TO MULTIPLE EMAIL ADDRESSES -->
+				<input type="hidden" name="_cc" value="another@email.com,yetanother@email.com">
+				<!-- ALTERNATIVE 'SUBMIT SUCCESSFUL' PAGE -->
+				<input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+				<!-- EMAIL FORMAT PRESENTATION ... TABLE -->
+				<input type="hidden" name="_template" value="table">
+				<button	type="submit" class="form_button">Submit</button>
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+	<script>
+
+		$(window).scroll(function(){
+			if($(window).scrollTop()){
+				$("nav").addClass("black");
+			}
+			else{
+				$("nav").removeClass("black");
+			}
+		});
+
+	</script>
+
+</body>
+</html>
