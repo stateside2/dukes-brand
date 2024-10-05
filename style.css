@@ -94,7 +94,7 @@ nav ul li a:hover {
     height: auto;
     width: 100%;
     background: ghostwhite;
-    padding: 20px;
+    padding: 50px;
 }
 
 .au_content_section {
@@ -202,10 +202,10 @@ nav ul li a:hover {
 .store_button {
     position: relative;
     padding: 20px;
-    border: none;
+    border: 5px;
     color: ghostwhite;
     background-color: #555555;
-    border-radius: 50px;
+    border-radius: 25px;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
@@ -303,8 +303,13 @@ textarea {
 
 @media screen and (max-width: 768px) {
     .hero_title h1 {
-        font-size: 45px;
+/*        font-size: 45px;*/
+        font-size: 38px;
     }
+
+    .hero_title {
+    padding-top: 250px;
+}
 
     .aboutus {
         flex-direction: column;
