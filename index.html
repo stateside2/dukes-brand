@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" href="images/md_headlogo_white.png">
 	<title>Marlow Dukes Over 50s Football</title>
+	<script src="https://unpkg.com/@botpoison/browser" async></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -88,23 +89,55 @@
 		<div class="cu_container">
 			<h1>Get In Touch</h1>
 			<p>If this sounds like something you'd be interested in, let us know if it's for the Over 50s or Over 60s.</p>
-			<form action="https://formsubmit.co/520e8b5d0b07d5bcbbc89cdcc0e65a02" method="POST" autocomplete="off">
-				<input type="text" name="name" required placeholder="Name">
-				<input type="email" name="email" required placeholder="Email">
-				<textarea name="message" placeholder="Message"></textarea>
-				<input type="hidden" name="_subject" value="MARLOW DUKES: POTENTIAL RECRUIT">
+			<form action="https://submit-form.com/y4GJKwRly" method="POST" autocomplete="off" data-botpoison-public-key="pk_87b9894a-f561-49ec-b886-d2bfde008c2b">
+				<input type="text" id="name" name="name" placeholder="Name" required="" />
+				<input type="email" id="email" name="email" placeholder="Email" required="" />
+				<textarea id="message" name="message" placeholder="Message" required=""></textarea>
+				<!-- DISPLAYS THE DARK VERSION OF THE FEEDBACK PAGE -->
+				<input type="hidden" name="_feedback.dark" value="true" />
+				<!-- DISPLAYS CUSTOM SUCCESS TITLE AND MESSAGE -->
+				<input type="hidden" name="_feedback.success.title" value="Thank you" />
+				<input type="hidden" name="_feedback.success.message" value="Your message has been sent, we'll be in touch soon" />
+				<!-- SETS THE SUBJECT OF THE EMAIL -->
+				<input type="hidden" name="_email.subject" value="POTENTIAL RECRUIT: MARLOW DUKES" />
+				<!-- SETS THE NAME OF THE EMAIL SENDER -->
+				<input type="hidden" name="_email.from" value="MARLOW DUKES" />
+				<!-- <input type="hidden" name="_subject" value="MARLOW DUKES: POTENTIAL RECRUIT"> -->
 				<!-- REMOVES THE CAPTCHA REQUEST ON SUBMIT -->
-				<input type="hidden" name="_captcha" value="true">
+				<!-- <input type="hidden" name="_captcha" value="true"> -->
 				<!-- SEND TO MULTIPLE EMAIL ADDRESSES -->
 				<!-- <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com"> -->
 				<!-- ALTERNATIVE 'SUBMIT SUCCESSFUL' PAGE -->
-				<input type="hidden" name="_next" value="https://dukes-brand.onrender.com">
+				<!-- <input type="hidden" name="_next" value="https://dukes-brand.onrender.com"> -->
 				<!-- EMAIL FORMAT PRESENTATION ... TABLE -->
-				<input type="hidden" name="_template" value="table">
+				<!-- <input type="hidden" name="_template" value="table"> -->
 				<button	type="submit" class="form_button">Submit</button>
 			</form>
 		</div>
 	</div>
+		<!-- USED FOR THE FORMSUBMIT.CO SOLUTION THAT PROVED TO TAKE TOO LONG  -->
+<!-- 	<div class="contactus" id="contactus">
+		<div class="cu_container">
+			<h1>Get In Touch</h1>
+			<p>If this sounds like something you'd be interested in, let us know if it's for the Over 50s or Over 60s.</p>
+			<form action="https://formsubmit.co/520e8b5d0b07d5bcbbc89cdcc0e65a02" method="POST" autocomplete="off">
+				<input type="text" name="name" required placeholder="Name">
+				<input type="email" name="email" required placeholder="Email">
+				<textarea name="message" placeholder="Message"></textarea>
+				<input type="hidden" name="_subject" value="MARLOW DUKES: POTENTIAL RECRUIT"> -->
+				<!-- REMOVES THE CAPTCHA REQUEST ON SUBMIT -->
+				<!-- <input type="hidden" name="_captcha" value="true"> -->
+				<!-- SEND TO MULTIPLE EMAIL ADDRESSES -->
+				<!-- <input type="hidden" name="_cc" value="another@email.com,yetanother@email.com"> -->
+				<!-- ALTERNATIVE 'SUBMIT SUCCESSFUL' PAGE -->
+				<!-- <input type="hidden" name="_next" value="https://dukes-brand.onrender.com"> -->
+				<!-- EMAIL FORMAT PRESENTATION ... TABLE -->
+<!-- 				<input type="hidden" name="_template" value="table">
+				<button	type="submit" class="form_button">Submit</button>
+			</form>
+		</div>
+	</div> -->
+	
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script>
 
