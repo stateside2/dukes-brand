@@ -202,7 +202,7 @@ nav ul li a:hover {
 .store_button {
     position: relative;
     padding: 20px;
-    border: 5px;
+    border: none;
     color: ghostwhite;
     background-color: #555555;
     border-radius: 25px;
